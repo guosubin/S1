@@ -1,0 +1,531 @@
+﻿MiniToolBox by Farbar  Version: 17-06-2016
+Ran by Guosubin (administrator) on 16-07-2016 at 18:46:33
+Running from "D:\Downloads"
+Microsoft Windows 10 专业版  (X64)
+Model: Alienware 15 R2 Manufacturer: Alienware
+Boot Mode: Normal
+***************************************************************************
+
+========================= Flush DNS: ===================================
+
+Windows IP ����
+
+�ѳɹ�ˢ�� DNS �������档
+
+========================= IE Proxy Settings: ============================== 
+
+Proxy is not enabled.
+No Proxy Server is set.
+
+"Reset IE Proxy Settings": IE Proxy Settings were reset.
+========================= Hosts content: =================================
+112.80.255.214		730.nuomi.n.shifen.com
+61.135.162.10		www.hao123.com
+========================= IP Configuration: ================================
+
+Killer Wireless-n/a/ac 1535 Wireless Network Adapter = WLAN (Connected)
+Killer E2400 Gigabit Ethernet Controller = 以太网 (Media disconnected)
+Bluetooth Device (Personal Area Network) = 蓝牙网络连接 (Media disconnected)
+
+
+#========================
+# IPv4 配置
+#========================
+pushd interface ipv4
+
+reset
+add address name="ethernet_32774" address=192.168.56.1 mask=255.255.255.0
+
+
+popd
+# IPv4 配置结束
+
+
+
+Windows IP 配置
+
+   主机名  . . . . . . . . . . . . . : GSU-AW
+   主 DNS 后缀 . . . . . . . . . . . : 
+   节点类型  . . . . . . . . . . . . : 混合
+   IP 路由已启用 . . . . . . . . . . : 否
+   WINS 代理已启用 . . . . . . . . . : 否
+
+以太网适配器 以太网:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+   描述. . . . . . . . . . . . . . . : Killer E2400 Gigabit Ethernet Controller
+   物理地址. . . . . . . . . . . . . : F8-CA-B8-51-CA-65
+   DHCP 已启用 . . . . . . . . . . . : 是
+   自动配置已启用. . . . . . . . . . : 是
+
+无线局域网适配器 本地连接* 1:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+   描述. . . . . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   物理地址. . . . . . . . . . . . . : 9E-B6-D0-02-65-FF
+   DHCP 已启用 . . . . . . . . . . . : 是
+   自动配置已启用. . . . . . . . . . : 是
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : 
+   描述. . . . . . . . . . . . . . . : Killer Wireless-n/a/ac 1535 Wireless Network Adapter
+   物理地址. . . . . . . . . . . . . : 9C-B6-D0-02-65-FF
+   DHCP 已启用 . . . . . . . . . . . : 是
+   自动配置已启用. . . . . . . . . . : 是
+   IPv4 地址 . . . . . . . . . . . . : 192.168.31.227(首选) 
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   获得租约的时间  . . . . . . . . . : 2016年7月16日 18:00:41
+   租约过期的时间  . . . . . . . . . : 2016年7月17日 6:00:41
+   默认网关. . . . . . . . . . . . . : 192.168.31.1
+   DHCP 服务器 . . . . . . . . . . . : 192.168.31.1
+   DNS 服务器  . . . . . . . . . . . : 192.168.31.1
+   TCPIP 上的 NetBIOS  . . . . . . . : 已启用
+
+以太网适配器 蓝牙网络连接:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+   描述. . . . . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   物理地址. . . . . . . . . . . . . : 9C-B6-D0-02-66-00
+   DHCP 已启用 . . . . . . . . . . . : 是
+   自动配置已启用. . . . . . . . . . : 是
+
+隧道适配器 isatap.{81D30365-752A-40E6-B243-8A05226951C8}:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+   描述. . . . . . . . . . . . . . . : Microsoft ISATAP Adapter
+   物理地址. . . . . . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP 已启用 . . . . . . . . . . . : 否
+   自动配置已启用. . . . . . . . . . : 是
+
+隧道适配器 Teredo Tunneling Pseudo-Interface:
+
+   连接特定的 DNS 后缀 . . . . . . . : 
+   描述. . . . . . . . . . . . . . . : Teredo Tunneling Pseudo-Interface
+   物理地址. . . . . . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP 已启用 . . . . . . . . . . . : 否
+   自动配置已启用. . . . . . . . . . : 是
+   IPv6 地址 . . . . . . . . . . . . : 2001:0:5ef5:79fd:10fb:f82:3f57:e01c(首选) 
+   本地链接 IPv6 地址. . . . . . . . : fe80::10fb:f82:3f57:e01c%5(首选) 
+   默认网关. . . . . . . . . . . . . : ::
+   DHCPv6 IAID . . . . . . . . . . . : 419430400
+   DHCPv6 客户端 DUID  . . . . . . . : 00-01-00-01-1E-C2-FF-82-F8-CA-B8-51-CA-65
+   TCPIP 上的 NetBIOS  . . . . . . . : 已禁用
+服务器:  XiaoQiang
+Address:  192.168.31.1
+
+名称:    google.com
+Addresses:  200:2:3b18:3ad::
+	  37.61.54.158
+
+
+正在 Ping google.com [37.61.54.158] 具有 32 字节的数据:
+请求超时。
+请求超时。
+
+37.61.54.158 的 Ping 统计信息:
+    数据包: 已发送 = 2，已接收 = 0，丢失 = 2 (100% 丢失)，
+服务器:  XiaoQiang
+Address:  192.168.31.1
+
+名称:    yahoo.com
+Addresses:  2001:4998:44:204::a7
+	  2001:4998:c:a06::2:4008
+	  2001:4998:58:c02::a9
+	  206.190.36.45
+	  98.139.183.24
+	  98.138.253.109
+
+
+正在 Ping yahoo.com [98.138.253.109] 具有 32 字节的数据:
+来自 98.138.253.109 的回复: 字节=32 时间=387ms TTL=45
+来自 98.138.253.109 的回复: 字节=32 时间=377ms TTL=45
+
+98.138.253.109 的 Ping 统计信息:
+    数据包: 已发送 = 2，已接收 = 2，丢失 = 0 (0% 丢失)，
+往返行程的估计时间(以毫秒为单位):
+    最短 = 377ms，最长 = 387ms，平均 = 382ms
+
+正在 Ping 127.0.0.1 具有 32 字节的数据:
+来自 127.0.0.1 的回复: 字节=32 时间<1ms TTL=128
+来自 127.0.0.1 的回复: 字节=32 时间<1ms TTL=128
+
+127.0.0.1 的 Ping 统计信息:
+    数据包: 已发送 = 2，已接收 = 2，丢失 = 0 (0% 丢失)，
+往返行程的估计时间(以毫秒为单位):
+    最短 = 0ms，最长 = 0ms，平均 = 0ms
+===========================================================================
+接口列表
+  9...f8 ca b8 51 ca 65 ......Killer E2400 Gigabit Ethernet Controller
+  2...9e b6 d0 02 65 ff ......Microsoft Wi-Fi Direct Virtual Adapter
+  7...9c b6 d0 02 65 ff ......Killer Wireless-n/a/ac 1535 Wireless Network Adapter
+  4...9c b6 d0 02 66 00 ......Bluetooth Device (Personal Area Network)
+  1...........................Software Loopback Interface 1
+  8...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter
+  5...00 00 00 00 00 00 00 e0 Teredo Tunneling Pseudo-Interface
+===========================================================================
+
+IPv4 路由表
+===========================================================================
+活动路由:
+网络目标        网络掩码          网关       接口   跃点数
+          0.0.0.0          0.0.0.0     192.168.31.1   192.168.31.227     10
+        127.0.0.0        255.0.0.0            在链路上         127.0.0.1    306
+        127.0.0.1  255.255.255.255            在链路上         127.0.0.1    306
+  127.255.255.255  255.255.255.255            在链路上         127.0.0.1    306
+     192.168.31.0    255.255.255.0            在链路上    192.168.31.227    266
+   192.168.31.227  255.255.255.255            在链路上    192.168.31.227    266
+   192.168.31.255  255.255.255.255            在链路上    192.168.31.227    266
+        224.0.0.0        240.0.0.0            在链路上         127.0.0.1    306
+        224.0.0.0        240.0.0.0            在链路上    192.168.31.227    266
+  255.255.255.255  255.255.255.255            在链路上         127.0.0.1    306
+  255.255.255.255  255.255.255.255            在链路上    192.168.31.227    266
+===========================================================================
+永久路由:
+  无
+
+IPv6 路由表
+===========================================================================
+活动路由:
+ 接口跃点数网络目标                网关
+  5    306 ::/0                     在链路上
+  1    306 ::1/128                  在链路上
+  5    306 2001::/32                在链路上
+  5    306 2001:0:5ef5:79fd:10fb:f82:3f57:e01c/128
+                                    在链路上
+  5    306 fe80::/64                在链路上
+  5    306 fe80::10fb:f82:3f57:e01c/128
+                                    在链路上
+  1    306 ff00::/8                 在链路上
+  5    306 ff00::/8                 在链路上
+===========================================================================
+永久路由:
+  无
+========================= Winsock entries =====================================
+
+Catalog5 01 C:\WINDOWS\SysWOW64\napinsp.dll [55808] (Microsoft Corporation)
+Catalog5 02 C:\WINDOWS\SysWOW64\pnrpnsp.dll [70656] (Microsoft Corporation)
+Catalog5 03 C:\WINDOWS\SysWOW64\pnrpnsp.dll [70656] (Microsoft Corporation)
+Catalog5 04 C:\WINDOWS\SysWOW64\NLAapi.dll [65024] (Microsoft Corporation)
+Catalog5 05 C:\WINDOWS\SysWOW64\mswsock.dll [312160] (Microsoft Corporation)
+Catalog5 06 C:\WINDOWS\SysWOW64\winrnr.dll [23552] (Microsoft Corporation)
+Catalog5 07 C:\WINDOWS\SysWOW64\wshbth.dll [51712] (Microsoft Corporation)
+Catalog9 01 C:\WINDOWS\system32\ierd_tgp_lsp.dll [982120] (Tencent)
+Catalog9 02 C:\WINDOWS\system32\ierd_tgp_lsp.dll [982120] (Tencent)
+Catalog9 03 C:\WINDOWS\system32\ierd_tgp_lsp.dll [982120] (Tencent)
+Catalog9 04 C:\WINDOWS\SysWOW64\mswsock.dll [312160] (Microsoft Corporation)
+Catalog9 05 C:\WINDOWS\SysWOW64\mswsock.dll [312160] (Microsoft Corporation)
+Catalog9 06 C:\WINDOWS\SysWOW64\mswsock.dll [312160] (Microsoft Corporation)
+Catalog9 07 C:\WINDOWS\SysWOW64\mswsock.dll [312160] (Microsoft Corporation)
+Catalog9 08 C:\WINDOWS\SysWOW64\mswsock.dll [312160] (Microsoft Corporation)
+Catalog9 09 C:\WINDOWS\SysWOW64\mswsock.dll [312160] (Microsoft Corporation)
+Catalog9 10 C:\WINDOWS\SysWOW64\mswsock.dll [312160] (Microsoft Corporation)
+Catalog9 11 C:\WINDOWS\SysWOW64\mswsock.dll [312160] (Microsoft Corporation)
+Catalog9 12 C:\WINDOWS\SysWOW64\mswsock.dll [312160] (Microsoft Corporation)
+Catalog9 13 C:\WINDOWS\SysWOW64\mswsock.dll [312160] (Microsoft Corporation)
+Catalog9 14 C:\WINDOWS\SysWOW64\mswsock.dll [312160] (Microsoft Corporation)
+Catalog9 15 C:\WINDOWS\SysWOW64\mswsock.dll [312160] (Microsoft Corporation)
+Catalog9 16 C:\WINDOWS\system32\ierd_tgp_lsp.dll [982120] (Tencent)
+x64-Catalog5 01 C:\Windows\System32\napinsp.dll [68096] (Microsoft Corporation)
+x64-Catalog5 02 C:\Windows\System32\pnrpnsp.dll [87040] (Microsoft Corporation)
+x64-Catalog5 03 C:\Windows\System32\pnrpnsp.dll [87040] (Microsoft Corporation)
+x64-Catalog5 04 C:\Windows\System32\NLAapi.dll [80896] (Microsoft Corporation)
+x64-Catalog5 05 C:\Windows\System32\mswsock.dll [357216] (Microsoft Corporation)
+x64-Catalog5 06 C:\Windows\System32\winrnr.dll [31744] (Microsoft Corporation)
+x64-Catalog5 07 C:\Windows\System32\wshbth.dll [63488] (Microsoft Corporation)
+x64-Catalog9 01 C:\Windows\System32\mswsock.dll [357216] (Microsoft Corporation)
+x64-Catalog9 02 C:\Windows\System32\mswsock.dll [357216] (Microsoft Corporation)
+x64-Catalog9 03 C:\Windows\System32\mswsock.dll [357216] (Microsoft Corporation)
+x64-Catalog9 04 C:\Windows\System32\mswsock.dll [357216] (Microsoft Corporation)
+x64-Catalog9 05 C:\Windows\System32\mswsock.dll [357216] (Microsoft Corporation)
+x64-Catalog9 06 C:\Windows\System32\mswsock.dll [357216] (Microsoft Corporation)
+x64-Catalog9 07 C:\Windows\System32\mswsock.dll [357216] (Microsoft Corporation)
+x64-Catalog9 08 C:\Windows\System32\mswsock.dll [357216] (Microsoft Corporation)
+x64-Catalog9 09 C:\Windows\System32\mswsock.dll [357216] (Microsoft Corporation)
+x64-Catalog9 10 C:\Windows\System32\mswsock.dll [357216] (Microsoft Corporation)
+x64-Catalog9 11 C:\Windows\System32\mswsock.dll [357216] (Microsoft Corporation)
+x64-Catalog9 12 C:\Windows\System32\mswsock.dll [357216] (Microsoft Corporation)
+
+========================= Event log errors: ===============================
+
+Application errors:
+==================
+Error: (07/16/2016 06:44:46 PM) (Source: SideBySide) (User: )
+Description: “Microsoft.VC90.MFC,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"1”的激活上下文生成失败。在指令清单或策略文件“Microsoft.VC90.MFC,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"2”的第 Microsoft.VC90.MFC,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"3 行出现错误。
+在指令清单中找到的组件标识与请求组件的标识不匹配。
+参考是 Microsoft.VC90.MFC,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"。
+定义是 Microsoft.VC90.MFC,processorArchitecture="x86",type="win32",version="9.0.30729.6161"。
+请使用 sxstrace.exe 进行详细诊断。
+
+Error: (07/16/2016 06:44:46 PM) (Source: SideBySide) (User: )
+Description: “Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"1”的激活上下文生成失败。
+找不到从属程序集 Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"。
+请使用 sxstrace.exe 进行详细诊断。
+
+Error: (07/16/2016 06:44:45 PM) (Source: SideBySide) (User: )
+Description: “Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"1”的激活上下文生成失败。
+找不到从属程序集 Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"。
+请使用 sxstrace.exe 进行详细诊断。
+
+Error: (07/16/2016 06:44:45 PM) (Source: SideBySide) (User: )
+Description: “Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"1”的激活上下文生成失败。
+找不到从属程序集 Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"。
+请使用 sxstrace.exe 进行详细诊断。
+
+Error: (07/16/2016 06:44:20 PM) (Source: SideBySide) (User: )
+Description: 生成“C:\WINDOWS\WinSxS\manifests\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10586.494_none_ea85e725b9ba5a4b.manifest1”的激活上下文失败。在指令清单或策略文件“C:\WINDOWS\WinSxS\manifests\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10586.494_none_ea85e725b9ba5a4b.manifest2”的第 C:\WINDOWS\WinSxS\manifests\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10586.494_none_ea85e725b9ba5a4b.manifest3 行中出现错误。
+应用程序所需的组件版本与已处于活动状态的另一个组件版本冲突。
+冲突的组件包括:
+组件 1: C:\WINDOWS\WinSxS\manifests\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10586.494_none_ea85e725b9ba5a4b.manifest。
+组件 2: C:\WINDOWS\WinSxS\manifests\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10586.494_none_a2d8b04ea53e3145.manifest。
+
+Error: (07/16/2016 06:44:06 PM) (Source: SideBySide) (User: )
+Description: “UccApi,processorArchitecture="AMD64",type="win32",version="16.0.0.0"1”的激活上下文生成失败。在指令清单或策略文件“UccApi,processorArchitecture="AMD64",type="win32",version="16.0.0.0"2”的第 UccApi,processorArchitecture="AMD64",type="win32",version="16.0.0.0"3 行出现错误。
+在指令清单中找到的组件标识与请求组件的标识不匹配。
+参考是 UccApi,processorArchitecture="AMD64",type="win32",version="16.0.0.0"。
+定义是 UccApi,processorArchitecture="x86",type="win32",version="16.0.0.0"。
+请使用 sxstrace.exe 进行详细诊断。
+
+Error: (07/16/2016 06:44:06 PM) (Source: SideBySide) (User: )
+Description: “Microsoft.VC90.MFC,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"1”的激活上下文生成失败。在指令清单或策略文件“Microsoft.VC90.MFC,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"2”的第 Microsoft.VC90.MFC,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"3 行出现错误。
+在指令清单中找到的组件标识与请求组件的标识不匹配。
+参考是 Microsoft.VC90.MFC,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"。
+定义是 Microsoft.VC90.MFC,processorArchitecture="x86",type="win32",version="9.0.30729.6161"。
+请使用 sxstrace.exe 进行详细诊断。
+
+Error: (07/16/2016 06:44:05 PM) (Source: SideBySide) (User: )
+Description: “Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"1”的激活上下文生成失败。
+找不到从属程序集 Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"。
+请使用 sxstrace.exe 进行详细诊断。
+
+Error: (07/16/2016 06:44:04 PM) (Source: SideBySide) (User: )
+Description: “Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"1”的激活上下文生成失败。
+找不到从属程序集 Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"。
+请使用 sxstrace.exe 进行详细诊断。
+
+Error: (07/16/2016 06:44:04 PM) (Source: SideBySide) (User: )
+Description: “Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"1”的激活上下文生成失败。
+找不到从属程序集 Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"。
+请使用 sxstrace.exe 进行详细诊断。
+
+
+System errors:
+=============
+Error: (07/16/2016 06:00:56 PM) (Source: Service Control Manager) (User: )
+Description: 服务 Intel(R) Content Protection HDCP Service 意外停止。这发生了 1 次。
+
+Error: (07/16/2016 06:00:38 PM) (Source: Service Control Manager) (User: )
+Description: 由于下列错误，Windows Presentation Foundation Font Cache 3.0.0.0 服务启动失败: 
+%%2 = 系统找不到指定的文件。
+
+
+Error: (07/16/2016 06:00:38 PM) (Source: Service Control Manager) (User: )
+Description: 由于下列错误，Windows Presentation Foundation Font Cache 3.0.0.0 服务启动失败: 
+%%2 = 系统找不到指定的文件。
+
+
+Error: (07/16/2016 06:00:37 PM) (Source: Service Control Manager) (User: )
+Description: 由于下列错误，XLServicePlatform 服务启动失败: 
+%%1053 = 服务没有及时响应启动或控制请求。
+
+
+Error: (07/16/2016 06:00:37 PM) (Source: Service Control Manager) (User: )
+Description: 等待 XLServicePlatform 服务的连接超时(30000 毫秒)。
+
+Error: (07/16/2016 06:00:37 PM) (Source: Service Control Manager) (User: )
+Description: 由于下列错误，ReimageRealTimeProtector 服务启动失败: 
+%%2 = 系统找不到指定的文件。
+
+
+Error: (07/16/2016 06:00:21 PM) (Source: Application Popup) (User: )
+Description: ACPI5
+
+Error: (07/16/2016 06:00:36 PM) (Source: BugCheck) (User: )
+Description: 0x00000101 (0x0000000000000018, 0x0000000000000000, 0xffffd0002045f180, 0x0000000000000002)C:\WINDOWS\Minidump\071616-13609-01.dmp57a801a7-d33b-4299-b554-e84cb6b3da39
+
+Error: (07/16/2016 06:00:36 PM) (Source: EventLog) (User: )
+Description: 上一次系统的 17:29:59 在 ‎2016/‎7/‎16 上的关闭是意外的。
+
+Error: (07/16/2016 03:58:11 PM) (Source: Service Control Manager) (User: )
+Description: 由于下列错误，bazunrnan 服务启动失败: 
+%%1450 = 系统资源不足，无法完成请求的服务。
+
+
+
+Microsoft Office Sessions:
+=========================
+Error: (07/16/2016 06:44:46 PM) (Source: SideBySide)(User: )
+Description: Microsoft.VC90.MFC,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"Microsoft.VC90.MFC,processorArchitecture="x86",type="win32",version="9.0.30729.6161"c:\program files\youdao\youdaonote\ShowPopupOnDesktop.exec:\program files\youdao\youdaonote\Microsoft.VC90.MFC.MANIFEST4
+
+Error: (07/16/2016 06:44:46 PM) (Source: SideBySide)(User: )
+Description: Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"c:\program files\thunder network\thunder\tp\XLBugReport.exe
+
+Error: (07/16/2016 06:44:45 PM) (Source: SideBySide)(User: )
+Description: Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"c:\program files\thunder network\thunder\data\thunderpush\predownload\XLGameBoxToolTip.exe
+
+Error: (07/16/2016 06:44:45 PM) (Source: SideBySide)(User: )
+Description: Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"c:\program files\thunder network\thunder\data\thunderpush\xlgameboxassistaddin\XLGameBoxExitHelper.exe
+
+Error: (07/16/2016 06:44:20 PM) (Source: SideBySide)(User: )
+Description: C:\WINDOWS\WinSxS\manifests\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10586.494_none_ea85e725b9ba5a4b.manifestC:\WINDOWS\WinSxS\manifests\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10586.494_none_a2d8b04ea53e3145.manifestd:\yygamestore\emulator\3.4.0.12\BugReport.exe
+
+Error: (07/16/2016 06:44:06 PM) (Source: SideBySide)(User: )
+Description: UccApi,processorArchitecture="AMD64",type="win32",version="16.0.0.0"UccApi,processorArchitecture="x86",type="win32",version="16.0.0.0"C:\Program Files (x86)\Microsoft Office\root\Office16\lync.exe.ManifestC:\Program Files (x86)\Microsoft Office\root\Office16\UccApi.DLL1
+
+Error: (07/16/2016 06:44:06 PM) (Source: SideBySide)(User: )
+Description: Microsoft.VC90.MFC,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"Microsoft.VC90.MFC,processorArchitecture="x86",type="win32",version="9.0.30729.6161"c:\program files\youdao\youdaonote\ShowPopupOnDesktop.exec:\program files\youdao\youdaonote\Microsoft.VC90.MFC.MANIFEST4
+
+Error: (07/16/2016 06:44:05 PM) (Source: SideBySide)(User: )
+Description: Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"c:\program files\thunder network\thunder\tp\XLBugReport.exe
+
+Error: (07/16/2016 06:44:04 PM) (Source: SideBySide)(User: )
+Description: Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"c:\program files\thunder network\thunder\data\thunderpush\predownload\XLGameBoxToolTip.exe
+
+Error: (07/16/2016 06:44:04 PM) (Source: SideBySide)(User: )
+Description: Microsoft.VC90.ATL,processorArchitecture="x86",publicKeyToken="1fc8b3b9a1e18e3b",type="win32",version="9.0.21022.8"c:\program files\thunder network\thunder\data\thunderpush\xlgameboxassistaddin\XLGameBoxExitHelper.exe
+
+
+CodeIntegrity Errors:
+===================================
+  Date: 2016-07-15 21:41:05.740
+  Description: Code Integrity is unable to verify the image integrity of the file \Device\HarddiskVolume5\Windows\System32\efswrt.dll because the set of per-page image hashes could not be found on the system.
+
+  Date: 2016-07-15 00:17:11.670
+  Description: Code Integrity determined that a process (\Device\HarddiskVolume5\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe) attempted to load \Device\HarddiskVolume5\Program Files (x86)\SogouInput\8.0.0.8004\SogouCloud.exe that did not meet the Microsoft signing level requirements.
+
+  Date: 2016-07-14 22:55:52.076
+  Description: Code Integrity is unable to verify the image integrity of the file \Device\HarddiskVolume5\Windows\System32\efswrt.dll because the set of per-page image hashes could not be found on the system.
+
+  Date: 2016-07-13 08:28:50.728
+  Description: Code Integrity determined that a process (\Device\HarddiskVolume5\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe) attempted to load \Device\HarddiskVolume5\Program Files (x86)\SogouInput\8.0.0.8004\SogouCloud.exe that did not meet the Microsoft signing level requirements.
+
+  Date: 2016-07-13 00:37:21.014
+  Description: Code Integrity determined that a process (\Device\HarddiskVolume5\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe) attempted to load \Device\HarddiskVolume5\Program Files (x86)\SogouInput\8.0.0.8004\SogouCloud.exe that did not meet the Microsoft signing level requirements.
+
+  Date: 2016-07-02 01:00:40.265
+  Description: Code Integrity determined that a process (\Device\HarddiskVolume5\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe) attempted to load \Device\HarddiskVolume5\Program Files (x86)\SogouInput\8.0.0.8004\SogouCloud.exe that did not meet the Microsoft signing level requirements.
+
+  Date: 2016-06-24 00:18:59.810
+  Description: Code Integrity determined that a process (\Device\HarddiskVolume5\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe) attempted to load \Device\HarddiskVolume5\Program Files (x86)\SogouInput\8.0.0.8004\SogouCloud.exe that did not meet the Microsoft signing level requirements.
+
+  Date: 2016-06-23 08:21:52.583
+  Description: Code Integrity determined that a process (\Device\HarddiskVolume5\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe) attempted to load \Device\HarddiskVolume5\Program Files (x86)\SogouInput\8.0.0.8004\SogouCloud.exe that did not meet the Microsoft signing level requirements.
+
+  Date: 2016-06-21 09:36:16.463
+  Description: Code Integrity is unable to verify the image integrity of the file \Device\HarddiskVolume5\Windows\System32\efswrt.dll because the set of per-page image hashes could not be found on the system.
+
+  Date: 2016-06-19 22:59:42.677
+  Description: Code Integrity is unable to verify the image integrity of the file \Device\HarddiskVolume5\Windows\System32\efswrt.dll because the set of per-page image hashes could not be found on the system.
+
+
+=========================== Installed Programs ============================
+
+Alienware Command Center (HKLM\...\{34D90D8B-A2AB-47C3-97CB-363D9923C5E7}) (Version: 4.5.19.1 - Alienware Corp.) Hidden
+Alienware Command Center (HKLM-x32\...\InstallShield_{34D90D8B-A2AB-47C3-97CB-363D9923C5E7}) (Version: 4.5.19.1 - Alienware Corp.)
+Citrix Receiver (HKLM-x32\...\CitrixOnlinePluginPackWeb) (Version: 13.1.0.89 - Citrix Systems, Inc.)
+Debugging Tools for Windows (x86) (HKLM-x32\...\{D09605BE-5587-4B0C-86C8-69B5092CB80F}) (Version: 6.12.2.633 - Microsoft Corporation)
+Dell Data Vault (HKLM\...\{2E55EEFD-2162-4A7D-9158-EDB0305603A6}) (Version: 4.3.8.0 - Dell Inc.) Hidden
+Dell SupportAssist (HKLM\...\PC-Doctor for Windows) (Version: 1.2.6793.01 - Dell)
+Dell SupportAssistAgent (HKLM-x32\...\{3ED468C2-2235-4747-90AD-A7A34F0FE70A}) (Version: 1.2.2.8 - Dell)
+Erlang OTP 18 (7.3) (HKLM-x32\...\Erlang OTP 18 (7.3)) (Version:  - )
+Google Chrome (HKLM-x32\...\Google Chrome) (Version: 51.0.2704.103 - Google Inc.)
+Google Update Helper (HKLM-x32\...\{60EC980A-BDA2-4CB6-A427-B07A5498B4CA}) (Version: 1.3.30.3 - Google Inc.) Hidden
+Intel(R) Driver Update Utility 2.5 (HKLM-x32\...\{8EF465B2-1D08-4CA2-8ACC-1911B573725D}) (Version: 2.5.0.22 - Intel) Hidden
+Intel(R) Processor Graphics (HKLM-x32\...\{F0E3AD40-2BBD-4360-9C76-B9AC9A5886EA}) (Version: 20.19.15.4454 - Intel Corporation)
+Intel(R) Product Improvement Program (HKLM-x32\...\{5859045D-9DED-4776-9930-C9461AB2FF12}) (Version: 2.1.27.3 - Intel) Hidden
+Intel® Driver Update Utility (HKLM-x32\...\{aa1dec3b-dc4b-4db0-8c18-9157457eff1f}) (Version: 2.5.0.22 - Intel)
+Java 7 Update 79 (64-bit) (HKLM\...\{26A24AE4-039D-4CA4-87B4-2F06417079FF}) (Version: 7.0.790 - Oracle)
+Java SE Development Kit 7 Update 79 (64-bit) (HKLM\...\{64A3A4F4-B792-11D6-A78A-00B0D0170790}) (Version: 1.7.0.790 - Oracle)
+Killer Bandwidth Control Filter Driver (HKLM\...\{179A8CDA-F033-4A99-A6BB-3E0A9E642369}) (Version: 1.1.57.1245 - Rivet Networks) Hidden
+Killer E240x Drivers (HKLM\...\{71C7934C-CD09-492C-B065-A03E35E49DC4}) (Version: 1.1.57.1245 - Rivet Networks) Hidden
+Killer Network Manager (HKLM\...\{63432ADF-0116-48CA-B65A-2DFA02BE67E5}) (Version: 1.1.57.1245 - Rivet Networks) Hidden
+Killer Network Manager Suite (HKLM-x32\...\{E70DB50B-10B4-46BC-9DE2-AB8B49E061EE}) (Version: 1.1.57.1245 - Rivet Networks)
+Killer Wireless Drivers (HKLM-x32\...\{C334AE7A-1B77-4641-A7F2-B8AC2E432BDD}) (Version: 1.1.57.1245 - Rivet Networks)
+Killer Wireless-AC Drivers (HKLM\...\{AB9696B4-CD86-4D63-AFC2-6157B2145CEF}) (Version: 1.1.57.1245 - Rivet Networks) Hidden
+KMPlayer中文版 2010 (HKLM-x32\...\KMPlayer中文版) (Version: 2010 - KMPlayer.CN)
+Microsoft ASP.NET MVC 4 Runtime (HKLM-x32\...\{3FE312D5-B862-40CE-8E4E-A6D8ABF62736}) (Version: 4.0.40804.0 - Microsoft Corporation)
+Microsoft Office 专业增强版 2016  - zh-cn (HKLM\...\ProPlusRetail - zh-cn) (Version: 16.0.6965.2058 - Microsoft Corporation)
+Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030 (HKLM-x32\...\{ca67548a-5ebe-413a-b50c-4b9ceb6d66c6}) (Version: 11.0.61030.0 - Microsoft Corporation)
+Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030 (HKLM-x32\...\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}) (Version: 11.0.61030.0 - Microsoft Corporation)
+Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501 (HKLM-x32\...\{050d4fc8-5d48-4b8f-8972-47c82c46020f}) (Version: 12.0.30501.0 - Microsoft Corporation)
+Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501 (HKLM-x32\...\{f65db027-aff3-4070-886a-0d87064aabb1}) (Version: 12.0.30501.0 - Microsoft Corporation)
+Mindjet MindManager 2016 (HKLM-x32\...\{3EC82E19-2955-42A0-95F9-E0E77CA5771B}) (Version: 16.0.152 - Mindjet)
+NVIDIA GeForce Experience 2.11.4.0 (HKLM\...\{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}_Display.GFExperience) (Version: 2.11.4.0 - NVIDIA Corporation)
+NVIDIA PhysX 系统软件 9.16.0318 (HKLM\...\{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}_Display.PhysX) (Version: 9.16.0318 - NVIDIA Corporation)
+NVIDIA 图形驱动程序 368.69 (HKLM\...\{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}_Display.Driver) (Version: 368.69 - NVIDIA Corporation)
+Office 16 Click-to-Run Extensibility Component (HKLM-x32\...\{90160000-008C-0000-0000-0000000FF1CE}) (Version: 16.0.6925.1018 - Microsoft Corporation) Hidden
+Office 16 Click-to-Run Licensing Component (HKLM\...\{90160000-008F-0000-1000-0000000FF1CE}) (Version: 16.0.6925.1018 - Microsoft Corporation) Hidden
+Office 16 Click-to-Run Localization Component (HKLM-x32\...\{90160000-008C-0804-0000-0000000FF1CE}) (Version: 16.0.6925.1018 - Microsoft Corporation) Hidden
+Online Plug-in (HKLM-x32\...\{739A6D0C-CA8D-4955-8E3D-58D1847327AC}) (Version: 13.1.0.89 - Citrix Systems, Inc.) Hidden
+Oracle VM VirtualBox 4.3.12_ZZZZ (HKLM\...\{B5121457-0126-4E62-BCBF-6DC7C73D9E4A}) (Version: 4.3.12 - Oracle Corporation)
+QQ音乐2016 (HKLM-x32\...\QQMusic) (Version: 12.68.3461.620 - 腾讯科技（深圳）有限公司)
+RabbitMQ Server 3.6.2 (HKLM-x32\...\RabbitMQ) (Version: 3.6.2 - Pivotal Software, Inc.)
+Reimage Repair (HKLM\...\Reimage Repair) (Version: 1.8.2.6 - Reimage)
+Rise of the Tomb Raider (HKLM\...\Steam App 391220) (Version:  - Crystal Dynamics)
+SHIELD Streaming (HKLM\...\{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}_GFExperience.NvStreamSrv) (Version: 7.1.0280 - NVIDIA Corporation) Hidden
+SHIELD Wireless Controller Driver (HKLM\...\{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}_ShieldWirelessController) (Version: 2.11.4.0 - NVIDIA Corporation) Hidden
+Speccy (HKLM\...\Speccy) (Version: 1.29 - Piriform)
+Steam (HKLM-x32\...\Steam) (Version: 2.10.91.91 - Valve Corporation)
+Tencent QQMail Plugin (HKLM-x32\...\QQMailPlugin) (Version:  - )
+Tomb Raider (HKLM\...\Steam App 203160) (Version:  - Crystal Dynamics)
+Touchpad (HKLM\...\SynTPDeinstKey) (Version: 19.0.15.15 - Synaptics Incorporated)
+Vulkan Run Time Libraries 1.0.11.1 (HKLM\...\VulkanRT1.0.11.1) (Version: 1.0.11.1 - LunarG, Inc.)
+Windows 驱动程序包 - Kionix, Inc. kxdiskprot DiskDrive  (09/09/2015 1.1.3.1) (HKLM\...\7C48956B3BC3052F5B69334CD352B95EBC640938) (Version: 09/09/2015 1.1.3.1 - Kionix, Inc.)
+WinRAR 5.31 (64 位) (HKLM\...\WinRAR archiver) (Version: 5.31.0 - win.rar GmbH)
+白鸽加速器 (HKLM-x32\...\白鸽加速器_is1) (Version:  - )
+百度云管家 (HKLM-x32\...\百度云管家) (Version: 5.4.4 - 百度在线网络技术（北京）有限公司)
+电脑管家11.4 (HKLM-x32\...\QQPCMgr) (Version: 11.4.17347.218 - 腾讯科技(深圳)有限公司)
+多玩模拟器 (HKLM-x32\...\YYPlayer) (Version: 3.4.0.12 - 多玩游戏网)
+格式工厂 3.8.0.0 (HKLM-x32\...\FormatFactory) (Version: 3.8.0.0 - Free Time)
+海豚网游加速器 (HKLM-x32\...\{F5DFDF8F-FB0D-4304-BB68-251DB00D9D0C}) (Version: 3.1.6.304 - Kuaile-U)
+鲁大师 (HKLM-x32\...\Ludashi_is1) (Version: 5.14.16.1001 - 鲁大师)
+搜狗拼音输入法 8.0正式版 (HKLM-x32\...\Sogou Input) (Version: 8.0.0.8004 - Sogou.com)
+腾讯QQ (HKLM-x32\...\{052CFB79-9D62-42E3-8A15-DE66C2C97C3E}) (Version: 8.1.17283.0 - 腾讯科技(深圳)有限公司)
+腾讯游戏平台 (HKLM-x32\...\腾讯游戏平台Formal) (Version:  - Tencent)
+迅雷7 (HKLM-x32\...\thunder_is1) (Version: 7.9.43.5054 - 迅雷网络技术有限公司)
+有道云笔记 (HKLM-x32\...\有道笔记) (Version: 4.9 - 网易公司)
+自助服务插件 (HKLM-x32\...\{F605992E-FD5B-46D7-AFDA-FDB1AB00F829}) (Version: 3.1.0.21744 - Citrix Systems, Inc.) Hidden
+
+========================= Devices: ================================
+
+
+========================= Memory info: ===================================
+
+Percentage of memory in use: 35%
+Total physical RAM: 16251.43 MB
+Available physical RAM: 10452.84 MB
+Total Virtual: 17275.43 MB
+Available Virtual: 10224.09 MB
+
+========================= Partitions: =====================================
+
+1 Drive c: (OS) (Fixed) (Total:224.88 GB) (Free:88.02 GB) NTFS
+2 Drive d: (Prog) (Fixed) (Total:238.35 GB) (Free:187.76 GB) NTFS
+
+========================= Users: ========================================
+
+\\GSU-AW 的用户帐户
+
+Administrator            DefaultAccount           Guest                    
+Guosubin                 
+命令成功完成。
+
+========================= Minidump Files ==================================
+
+C:\WINDOWS\Minidump\051516-12968-01.dmp
+C:\WINDOWS\Minidump\052116-12953-01.dmp
+C:\WINDOWS\Minidump\070316-13468-01.dmp
+C:\WINDOWS\Minidump\070916-13656-01.dmp
+C:\WINDOWS\Minidump\071616-13609-01.dmp
+========================= Restore Points ==================================
+
+26-06-2016 08:20:53 Installed Mindjet MindManager 2016.
+06-07-2016 00:02:06 计划的检查点
+14-07-2016 14:55:10 Windows 更新
+14-07-2016 14:55:31 Windows 更新
+
+**** End of log ****
